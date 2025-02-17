@@ -1,4 +1,4 @@
 #!/bin/bash
 
-echo "Starting the Submission Reminder App..."
+echo "Starting the Submission Reminder App...debu"
 bash "$(dirname "$0")/app/reminder.sh"
