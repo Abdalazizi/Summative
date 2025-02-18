@@ -39,8 +39,8 @@ This repository contains the `create_environment.sh` script, which sets up the d
    ./create_environment.sh
    ```
 2. **Enter your name when prompted. This will create a directory named**
-  ```bash
-   cd submission_reminder_{yourName}
-   ./startup.sh
-  ```
+   ```bash
+    cd submission_reminder_{yourName}
+    ./startup.sh
+   ```
 
