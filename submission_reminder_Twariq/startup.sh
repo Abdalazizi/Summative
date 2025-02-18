@@ -1,4 +1,6 @@
 #!/bin/bash
 
-echo "Starting the Submission Reminder App...debu"
-bash "$(dirname "$0")/app/reminder.sh"
+# Resolve script directory and execute reminder
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+echo "Starting the Submission Reminder App..."
+bash "$SCRIPT_DIR/app/reminder.sh"
