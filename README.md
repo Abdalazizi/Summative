@@ -37,10 +37,10 @@ This repository contains the `create_environment.sh` script, which sets up the d
 1. **Run the Environment Setup Script:**
    ```bash
    ./create_environment.sh
-```
+   ```
 2. **Enter your name when prompted. This will create a directory named**
-```bash
+  ```bash
    cd submission_reminder_{yourName}
    ./startup.sh
-```
+  ```
 
